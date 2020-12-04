@@ -26,6 +26,10 @@ export class cadastroPacientes1606706291054 implements MigrationInterface {
           type: 'integer',
         },
         {
+          name: 'path',
+          type: 'varchar',
+        },
+        {
           name: 'created_at',
           type: 'timestamp',
           default: 'now()',

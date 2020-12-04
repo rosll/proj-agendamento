@@ -14,6 +14,9 @@ class Pacientes {
   @Column()
   telefone: number;
 
+  @Column()
+  path: string;
+
   @CreateDateColumn()
   created_at: Date;
 
