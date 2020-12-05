@@ -1,5 +1,5 @@
-import { request, Request, Response } from 'express'
-import { getConnection, getRepository } from 'typeorm'
+import { Request, Response } from 'express'
+import { getRepository } from 'typeorm'
 import Pacientes from '../models/Pacientes'
 import PacientesView from '../views/pacientes_view'
 
